@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>Blog home!</h1>
+    <ul>
+    {% for post in posts %}
+        <li>{{ post }}</>
+    {% endfor %}
+    </ul>
 </body>
 </html>
